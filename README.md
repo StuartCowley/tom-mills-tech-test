@@ -26,11 +26,11 @@ You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/ass
 
 ## Screenshots
 
-### Browser
+### Browser View
 
 ![Browser view](browser-view.png)
 
-### Mobile
+### Mobile View
 
 ![Mobile view](mobile-view.jpg)
 
@@ -57,7 +57,7 @@ You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/ass
 
 ## Installation
 
-Clone the repo: `git clone https://github.com/tdot124/weather-app`
+Clone the repo: `git clone https://github.com/tdot124/tech-test`
 
 `cd` into folder and install dependencies using `npm install`
 
