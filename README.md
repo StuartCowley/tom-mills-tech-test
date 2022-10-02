@@ -1,5 +1,7 @@
 # React Technical Test
 
+This is a react app that enables users to search for images available via the Nasa API.
+
 ## Brief
 
 Technical Task - React Developer Role
@@ -22,7 +24,7 @@ GET​​ ​​https://images-api.nasa.gov/search ​Params: ​​q
 
 Assets
 
-You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg
+You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/asseizingts/200424060716-nasa-worm-logo.jpg
 
 ## Screenshots
 
@@ -61,9 +63,15 @@ Clone the repo: `git clone https://github.com/tdot124/tech-test`
 
 `cd` into folder and install dependencies using `npm install`
 
-To start weather app use `npm start`
+To start using nasa image search use `npm start`
+
+You can then use the search bar to search for images available via the Nasa API
 
 ## What I would do with more time
+
+- Look into different ways of displaying image results to allow for different aspect ratios
+
+- Apply some annimations using CSS when images appear
 
 ## Created By
 
