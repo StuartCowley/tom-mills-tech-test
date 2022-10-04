@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# React Technical Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a react app that enables users to search for images available via the Nasa API.
 
-## Available Scripts
+## Brief
 
-In the project directory, you can run:
+Technical Task - React Developer Role
 
-### `npm start`
+You are expected to build a React web application that allows users to search for images based on a query relating to space. You are provided the NASA API endpoint for image search.
+We want you to consider and add anything to your repository that should be included was this to be a live website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following functionalities need to be implemented:
+● A Search page which allows users to search for images by keyword
+● Images must be returned upon a successful search
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The styling is up to you but will be taken into consideration when evaluating your application.
 
-### `npm test`
+We estimate this task to take ​​10 hours​​. Once you have completed the task upload the repository to GitHub and send the link to xxxxx@xxx.com. ​Deadline: 5 days from receiving.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Relevant API endpoints:
 
-### `npm run build`
+image search:
+GET​​ ​​https://images-api.nasa.gov/search ​Params: ​​q
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Assets
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/asseizingts/200424060716-nasa-worm-logo.jpg
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
+### Browser View
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Browser view](browser-view.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Mobile View
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Mobile view](mobile-view.jpg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+### Language
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React
+- Javascript
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Testing
 
-### Code Splitting
+- Jest
+- React Testing Library
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Packages
 
-### Analyzing the Bundle Size
+- Axios
+- PropTypes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Styling
 
-### Making a Progressive Web App
+- CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Installation
 
-### Advanced Configuration
+Clone the repo: `git clone https://github.com/tdot124/tech-test`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+`cd` into folder and install dependencies using `npm install`
 
-### Deployment
+To start using nasa image search use `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can then use the search bar to search for images available via the Nasa API
 
-### `npm run build` fails to minify
+## What I would do with more time
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Look into different ways of displaying image results to allow for different aspect ratios
+
+- Apply some annimations using CSS when images appear
+
+## Created By
+
+Tom Mills

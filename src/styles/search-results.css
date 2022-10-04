@@ -1,0 +1,25 @@
+.no-results {
+  text-align: center;
+  font-weight: bold;
+}
+
+.search-results {
+  margin-top: 10px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-image {
+  margin: 5px;
+  height: 250px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .card-image {
+    margin: 5px;
+    height: auto;
+    width: 95%;
+  }
+}
